@@ -58,5 +58,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Canny_Edge_Detector_Real_Time.dir/DependInfo.cmake"
+  "CMakeFiles/Face_Detection.dir/DependInfo.cmake"
   )

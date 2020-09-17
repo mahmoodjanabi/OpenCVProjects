@@ -64,16 +64,16 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/janabi/Desktop/Projects/OpenCVProjects/Face Detection"
+CMAKE_SOURCE_DIR = "/Users/janabi/Desktop/Projects/OpenCVProjects/Test Tesst"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/janabi/Desktop/Projects/OpenCVProjects/Face Detection/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/janabi/Desktop/Projects/OpenCVProjects/Test Tesst/cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Face_Detection.dir/all
+all: CMakeFiles/Test_Tesst.dir/all
 
 .PHONY : all
 
@@ -83,36 +83,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Face_Detection.dir/clean
+clean: CMakeFiles/Test_Tesst.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Face_Detection.dir
+# Target rules for target CMakeFiles/Test_Tesst.dir
 
 # All Build rule for target.
-CMakeFiles/Face_Detection.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Face_Detection.dir/build.make CMakeFiles/Face_Detection.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Face_Detection.dir/build.make CMakeFiles/Face_Detection.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/janabi/Desktop/Projects/OpenCVProjects/Face Detection/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target Face_Detection"
-.PHONY : CMakeFiles/Face_Detection.dir/all
+CMakeFiles/Test_Tesst.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test_Tesst.dir/build.make CMakeFiles/Test_Tesst.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test_Tesst.dir/build.make CMakeFiles/Test_Tesst.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/janabi/Desktop/Projects/OpenCVProjects/Test Tesst/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target Test_Tesst"
+.PHONY : CMakeFiles/Test_Tesst.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Face_Detection.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/janabi/Desktop/Projects/OpenCVProjects/Face Detection/cmake-build-debug/CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Face_Detection.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/janabi/Desktop/Projects/OpenCVProjects/Face Detection/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/Face_Detection.dir/rule
+CMakeFiles/Test_Tesst.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/janabi/Desktop/Projects/OpenCVProjects/Test Tesst/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Test_Tesst.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/janabi/Desktop/Projects/OpenCVProjects/Test Tesst/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/Test_Tesst.dir/rule
 
 # Convenience name for target.
-Face_Detection: CMakeFiles/Face_Detection.dir/rule
+Test_Tesst: CMakeFiles/Test_Tesst.dir/rule
 
-.PHONY : Face_Detection
+.PHONY : Test_Tesst
 
 # clean rule for target.
-CMakeFiles/Face_Detection.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Face_Detection.dir/build.make CMakeFiles/Face_Detection.dir/clean
-.PHONY : CMakeFiles/Face_Detection.dir/clean
+CMakeFiles/Test_Tesst.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test_Tesst.dir/build.make CMakeFiles/Test_Tesst.dir/clean
+.PHONY : CMakeFiles/Test_Tesst.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
