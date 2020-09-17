@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/janabi/Desktop/Projects/OpenCVProjects/Test Tesst"
+CMAKE_SOURCE_DIR = "/Users/janabi/Desktop/Projects/OpenCVProjects/Face Detection in Real Time"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/janabi/Desktop/Projects/OpenCVProjects/Test Tesst/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/janabi/Desktop/Projects/OpenCVProjects/Face Detection in Real Time/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/janabi/Desktop/Projects/OpenCVProjects/Test Tesst/cmake-build-debug/CMakeFiles" "/Users/janabi/Desktop/Projects/OpenCVProjects/Test Tesst/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/janabi/Desktop/Projects/OpenCVProjects/Face Detection in Real Time/cmake-build-debug/CMakeFiles" "/Users/janabi/Desktop/Projects/OpenCVProjects/Face Detection in Real Time/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/janabi/Desktop/Projects/OpenCVProjects/Test Tesst/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/janabi/Desktop/Projects/OpenCVProjects/Face Detection in Real Time/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -131,17 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Test_Tesst
+# Target rules for targets named Face_Detection_in_Real_Time
 
 # Build rule for target.
-Test_Tesst: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Test_Tesst
-.PHONY : Test_Tesst
+Face_Detection_in_Real_Time: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Face_Detection_in_Real_Time
+.PHONY : Face_Detection_in_Real_Time
 
 # fast build rule for target.
-Test_Tesst/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test_Tesst.dir/build.make CMakeFiles/Test_Tesst.dir/build
-.PHONY : Test_Tesst/fast
+Face_Detection_in_Real_Time/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Face_Detection_in_Real_Time.dir/build.make CMakeFiles/Face_Detection_in_Real_Time.dir/build
+.PHONY : Face_Detection_in_Real_Time/fast
 
 main.o: main.cpp.o
 
@@ -149,7 +149,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test_Tesst.dir/build.make CMakeFiles/Test_Tesst.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Face_Detection_in_Real_Time.dir/build.make CMakeFiles/Face_Detection_in_Real_Time.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -158,7 +158,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test_Tesst.dir/build.make CMakeFiles/Test_Tesst.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Face_Detection_in_Real_Time.dir/build.make CMakeFiles/Face_Detection_in_Real_Time.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -167,7 +167,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test_Tesst.dir/build.make CMakeFiles/Test_Tesst.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Face_Detection_in_Real_Time.dir/build.make CMakeFiles/Face_Detection_in_Real_Time.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -178,7 +178,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Test_Tesst"
+	@echo "... Face_Detection_in_Real_Time"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

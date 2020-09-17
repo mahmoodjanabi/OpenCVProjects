@@ -1,4 +1,4 @@
-# Install script for directory: /Users/janabi/Desktop/Projects/OpenCVProjects/Test Tesst
+# Install script for directory: /Users/janabi/Desktop/Projects/OpenCVProjects/Face Detection in Real Time
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/janabi/Desktop/Projects/OpenCVProjects/Test Tesst/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/janabi/Desktop/Projects/OpenCVProjects/Face Detection in Real Time/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

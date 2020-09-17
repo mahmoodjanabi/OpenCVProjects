@@ -1,0 +1,5 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/janabi/Desktop/Projects/OpenCVProjects/Face Detection in Real Time"
+-- Found OpenCV: /usr/local/Cellar/opencv/4.4.0_1 (found version "4.4.0") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/janabi/Desktop/Projects/OpenCVProjects/Face Detection in Real Time/cmake-build-debug
