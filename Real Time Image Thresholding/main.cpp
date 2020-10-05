@@ -5,19 +5,18 @@ using namespace cv;
 
 int main(int argc, const char** argv){
     VideoCapture camera(0);
-    Mat img, gray;
-    
-    Mat binaryThresholding;
+    Mat img, gray, blurred, binaryThresholded;
 //  Set initial values
     int thresh = 128;
     int maxValue = 255;
     int checkKey = 0;
 //    while the esc button is not pressed, do the following
     while (checkKey != 27 && camera.isOpened()) {
-//  Threshold the source image into the following:
+//        Read the image, convert to grayscale, Blur to remove some noise, then threshold.
         camera.read(img);
         cvtColor(img,gray, COLOR_BGR2GRAY);
-        threshold(gray, binaryThresholding, thresh, maxValue, THRESH_BINARY);
+        GaussianBlur(gray,blurred,cv::Size(5, 5),1.4);
+        threshold(blurred, binaryThresholded, thresh, maxValue, THRESH_BINARY);
 
 //  Define windows to show results
         String binaryThreshWindow = "Binary Thresholding";
@@ -29,7 +28,7 @@ int main(int argc, const char** argv){
         createTrackbar("Max Value", binaryThreshWindow, &maxValue, 255);
 
 //  Show results
-        imshow(binaryThreshWindow, binaryThresholding);
+        imshow(binaryThreshWindow, binaryThresholded);
 
         checkKey = waitKey(1);
     }
